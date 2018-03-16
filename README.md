@@ -15,7 +15,7 @@ biocLite("pathifier")
 
 ## Installation
 ```
-devtools::install_github("FADHLyemen/lilikoi_Fadhl")
+devtools::install_github("lanagarmire/lilikoi")
 ```
 
 If you have a problem installing Rweka as it requires Java, you can reconfigure R from the command line by running the below line:

@@ -5,7 +5,7 @@
 To install all the required packages without overwriting your installed packages, you can run the below lines:
 
 ```
-list.of.packages <- c("ggplot2", "caret","devtools", "dplyr","RWeka","infotheo","pROC","reshape2","corrplot","Hmisc", "Matrix", "randomForest", "glmnet", "gbm", "e1071", "pamr")
+list.of.packages <- c("ggplot2", "caret","devtools", "dplyr","RWeka","infotheo","pROC","reshape2","corrplot", "stringr", "Hmisc", "Matrix", "randomForest", "glmnet", "gbm", "e1071", "pamr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
